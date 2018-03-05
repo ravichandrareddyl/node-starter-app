@@ -8,14 +8,14 @@ Build Docker image
 ```sh
 $ sh build.sh
 ```
-Run docker image
+Spun up docker container
 ```sh
 $ sh run.sh
 ```
 
-Run docker image
+kill running docker container
 ```sh
-$ sh run.sh
+$ sh killcontainer.sh
 ```
 
 Open bash console of running container
