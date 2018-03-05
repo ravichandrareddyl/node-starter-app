@@ -1,0 +1,1 @@
+docker rm -f $(docker ps -a -q  --filter ancestor=ravichandra2037/conduit-services)

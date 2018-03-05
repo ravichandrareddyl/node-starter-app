@@ -1,0 +1,1 @@
+docker build -t ravichandra2037/conduit-services:latest .
