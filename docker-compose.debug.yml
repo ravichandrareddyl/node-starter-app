@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  backend-services:
+    image: backend-services:debug
+    build:
+      context: .
+      dockerfile: Dockerfile.debug
+    ports:
+      - "5858:8080"
+    volumes:
+      - .:/src
+    environment:
+      - REMOTE_DEBUGGING

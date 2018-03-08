@@ -1,1 +1,0 @@
-docker exec -it $(docker ps -a -q  --filter ancestor=ravichandra2037/conduit-services) /bin/bash

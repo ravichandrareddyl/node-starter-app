@@ -4,22 +4,25 @@ This is starter code for node-js applications.
 
 ## Installation
 
-Build Docker image 
+###Build Docker image
+
+#### dev
 ```sh
-$ sh build.sh
+$ ./dockerTask.sh build debug
 ```
-Spun up docker container
+#### release
 ```sh
-$ sh run.sh
+$ ./dockerTask.sh build release
 ```
 
-kill running docker container
+###Spun up docker container
+
+#### dev
 ```sh
-$ sh killcontainer.sh
+$ ./dockerTask.sh compose debug
 ```
 
-Open bash console of running container
-Run docker image
+#### release
 ```sh
-$ sh develop.sh
+$ ./dockerTask.sh compose release
 ```

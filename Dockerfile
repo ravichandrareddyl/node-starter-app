@@ -7,11 +7,11 @@ ENTRYPOINT ["/tini", "--"]
 
 WORKDIR /usr/src/app
 COPY package*.json ./
-RUN npm install
 COPY . .
+RUN npm install
 
 
 EXPOSE 8080
 # At the end, set the user to use when running this image
 USER node
-CMD [ "node", "index.js" ]
+CMD [ "node", "server.js" ]

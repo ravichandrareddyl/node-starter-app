@@ -1,1 +1,0 @@
-docker run -p 49160:8080 --init -d ravichandra2037/conduit-services
