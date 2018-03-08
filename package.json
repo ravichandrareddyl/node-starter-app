@@ -1,13 +1,13 @@
 {
   "name": "conduit-services",
   "version": "1.0.0",
-  "description": "REST Api for mobile app",
-  "main": "index.js",
+  "description": "Containarized Node js rest api starter code ",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "l.ravi",
+  "author": "l.ravichandrareddy@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
